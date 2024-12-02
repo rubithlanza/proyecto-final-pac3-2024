@@ -1,0 +1,147 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/windows,linux,images,video,visualstudiocode
+# Editar en https://www.toptal.com/developers/gitignore?templates=windows,linux,images,video,visualstudiocode
+
+### Imágenes ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+# JPEG-XR
+*.jxr
+*.hdp
+*.wdp
+
+# Formato de intercambio de gráficos
+*.gif
+
+# CRUDO
+*.crudo
+
+#Web P
+*.webp
+
+# Gráficos de red portátiles
+*.png
+
+# Gráficos de red portátiles animados
+*.apng
+
+#Gráficos de red de imágenes múltiples
+*.mng
+
+# Formato de archivo de imagen etiquetado
+*.pelea
+*.tif
+
+# Gráficos vectoriales escalables
+*.svg
+*.svgz
+
+# Formato de documento portátil
+*.pdf
+
+# X Mapa de bits
+*.xbm
+
+#BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# Imágenes 3D
+*.3dm
+*.máximo
+
+### Linux ###
+*~
+
+# archivos temporales que se pueden crear si un proceso aún tiene abierto el identificador de un archivo eliminado
+.fusible_oculto*
+
+# Preferencias del directorio de KDE
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él
+.nfs*
+
+### Video ###
+*.3g2
+*.3gp
+*.asf
+*.asx
+*.avi
+*.flv
+*.mkv
+*.mov
+*.mp4
+*.mpg
+*.ogv
+*.rm
+*.swf
+*.vob
+*.wmv
+*.webm
+
+### Código de Visual Studio ###
+.vscode/*
+!.vscode/configuraciones.json
+!.vscode/tareas.json
+!.vscode/launch.json
+!.vscode/extensiones.json
+!.vscode/*.fragmentos de código
+
+# Historial local para Visual Studio Code
+.historia/
+
+# Extensiones de código de Visual Studio creadas
+*.vsix
+
+### Parche de VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historia
+.ionuro
+
+### Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Pulgares.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+*.dump de pila
+
+# Archivo de configuración de carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en recursos compartidos de archivos
+$PAPELETO DE RECICLAJE/
+
+# Archivos del instalador de Windows
+*.taxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atajos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/windows,linux,images,video,visualstudiocode
