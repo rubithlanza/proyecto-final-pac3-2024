@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Es la parte donde se muestra en la pasteña web  -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<!-- Este es el inicio del cuerpo -->
+<body>
+  <div class="container">
+    <!-- Parte de la cabecera -->
+    <div class="cabecera">
+        <h1>Aplicaciones de Ordenamiento</h1>
+  </div>
+  <!-- El menu de navegacion  -->
+  <div class="nav">
+    <div class="logo">
+      <img src="img/logo-unah.png" class= "w-100">
+    </div>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="burbuja.html">Ordenador de Burbuja</a></li>
+          <li><a href="insercion.html">Ordenador de Inserción</a></li>
+          <li><a href="quickSort.html">Ordenador de QuickSort</a></li>
+          <li><a href="mergeSort.html">Ordenador de MergeSort</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div> 
+  <!-- La principal donde vamos a colocar la informacion de la pagina -->
+  <div class="info">
+    <img src="img/img-quick.jpg" alt="Metodo de quickSort" class="image">
+    <div class="text-box">
+      <h2>¿Qué es el Método de QuickSort?</h2>
+      <p>Funciona seleccionando un elemento denominado pivote y dividiendo el conjunto de datos en dos subarreglos: los elementos menores o iguales al pivote se colocan a la izquierda, y los mayores, a la derecha. Este proceso se repite recursivamente para cada subarreglo hasta que todos los elementos estén ordenados.</p>
+    </div>
+  </div>
+  <hr>
+  <!-- Formulario -->
+  <div class="row mt-3">
+    <div class="col-8">
+        <h2>Introduzca una serie de valores numéricos</h2><br>
+        <h4>Instrucciones</h4>
+        <p>Introduce cada número individualmente en el campo de abajo y presiona 'Agregar' después de ingresar cada
+          número. Repite este paso hasta que todos los números que deseas ordenar se hayan añadido.</p>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Ingresar números" aria-label="Ingresar números"
+                aria-describedby="button-addon2" id="numeros">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary mx-2" type="button" id="btnAgregar">Agregar</button>
+            </div>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary mx-2" type="button" id="btnOrdenar">Ordenar</button>
+            </div>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary mx-2" type="button" id="btnLimpiar">Limpiar</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 d-flex justify-content-center">
+        <ul class="list-group list-group-horizontal" id="listAgregar">
+
+        </ul>
+    </div>
+
+    <div class="col-12 d-flex flex-column align-items-center bd-highlight mb-3 mt-3" id="listOrdenar">
+    </div>
+</div>
+  </div>
+  <!-- El pie de pagina -->
+    <div class="footer3">
+			<p>&copy; Algoritmos_&_Estructura-Datos_2024</p>
+		</div>
+
+    <!-- El apartado que llama a Js -->
+    <script src="js/quicksort.js"></script>
+</body>
+</html>

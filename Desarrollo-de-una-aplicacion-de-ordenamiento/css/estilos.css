@@ -1,0 +1,306 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+}
+
+@font-face{
+	font-family: Great;
+	src: url('../fonts/Great.ttf');
+
+}
+@font-face{
+	font-family: lato;
+	src: url('../fonts/lato.ttf');
+
+}
+body{
+	margin: 0;
+}
+.container{
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+
+}
+.cabecera{
+width: 100%;
+height: 50px;
+background-color: #08088A;
+padding: 15px 0; 
+text-align: center;
+
+}
+.cabecera h1 {
+	font-family: Great;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	margin-top: 10PX;
+}
+
+.logo{
+	width: 150px;
+	height: 70px;
+	float: left;
+	margin-left: 120px;
+}
+
+.menu{
+	width: auto;
+	height: 60px;
+	float: right;
+	margin-right: 80px;
+}
+
+.w-100{
+	width: 100%;
+	height: 100%;
+}
+
+.menu nav{
+	width: 100%;
+	height: 50px;
+}
+
+.menu nav ul {
+	display: flex;
+    list-style: none;
+}
+
+.menu nav ul li{
+	float: left;
+	list-style: none;
+}
+
+.menu nav ul li a{
+	display: block;
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 60px;
+	line-height: 60px;
+	font-family: tahoma;
+	font-size: 16px;
+	color: #0040FF;
+	text-decoration: none;
+}
+
+.menu nav ul li a:hover{
+	background-color: #fff;
+	color:#58ACFA ;
+}
+
+.info{
+	margin: 75px auto;
+	width: 70%;
+}
+
+.image{
+	max-width: 320px;
+	float: left;
+	border: 3px solid;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+
+.text-box h2{
+	font-size: 36px;
+	color: #0040FF;
+}
+
+.text-box p{
+	font-size: 24px;
+	text-align: justify;
+}
+
+.info1{
+	width: 70%;
+}
+
+.image1{
+	max-width: 320px;
+	float: right;
+	border: 3px solid;
+	border-radius: 10px;
+	margin-left: 15px;
+}
+
+/* Esta parte es del formulario  */
+.row { 
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center;
+	margin: 20px auto; 
+	max-width: 800px; 
+}
+
+
+/* Columnas */
+.col-8 { 
+	flex: 0 0 66.6667%; 
+	max-width: 66.6667%; 
+	padding: 15px; 
+} 
+
+.col-8 h2{
+	text-align: center;
+	color: #08088A;
+}
+.col-8 h4 {
+	font-size: 14;
+	color: blue;
+	text-align: left;
+}
+.col-8 p{
+	font-size: 10;
+	text-align: justify;
+	margin-bottom: 10px;
+	color: #A4A4A4;
+}
+
+.col-12 { 
+	flex: 0 0 100%; 
+	max-width: 100%; 
+	padding: 15px; 
+}
+
+ /* Estilos del input y botones */ 
+.input-group { 
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	margin-bottom: 15px; 
+}
+.form-control { 
+	flex: 1; 
+	padding: 10px; 
+	font-size: 16px; 
+} 
+
+.btn { 
+	padding: 10px 20px; 
+	font-size: 16px; 
+	cursor: pointer; 
+} 
+
+.btn-outline-secondary { color: #007bff; 
+	border: 2px solid #007bff; 
+	background-color: transparent; 
+	transition: background-color 0.3s ease; 
+}
+
+
+.btn-outline-secondary:hover { 
+	background-color: #007bff; 
+	color: #fff; 
+} 
+
+/* Lista de números */ 
+.list-group { 
+	display: flex; 
+	justify-content: center; 
+	flex-wrap: wrap; 
+	padding: 0; 
+	margin: 20px 0; 
+	list-style: none; 
+} 
+
+.list-group-horizontal .list-group-item {
+	display: inline-block; 
+	margin: 5px; 
+	padding: 10px 15px; 
+	border: 1px solid #ccc; 
+	background-color: #fff; 
+	border-radius: 4px; 
+	transition: background-color 0.3s ease; 
+} 
+.list-group-horizontal .list-group-item:hover { 
+	background-color: #007bff; 
+	color: #fff; 
+} 
+.bd-highlight { 
+	padding: 10px; 
+	border-radius: 4px; 
+	width: 100%; 
+	text-align: center;
+	color: #0040FF; 
+}
+
+/* Flexbox */ 
+.d-flex { 
+	display: flex; 
+} 
+
+.flex-column { 
+	flex-direction: column; 
+} 
+
+.align-items-center { 
+	align-items: center;
+}
+
+/* Márgenes */ 
+.mb-3 { 
+	margin-bottom: 1.5rem; /* 24px */ 
+} 
+.mt-3 { 
+	margin-top: 1.5rem; /* 24px */
+}
+
+/* Arreglos para html burbuja */
+.sorted-list .list-group-item {
+    background-color: #007bff; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+}
+
+.text-danger { 
+	color: blue; 
+	} 
+	.fw-bold {
+	font-weight: bold; 
+	} 
+	.fs-6 {
+	font-size: 1rem;
+	}
+
+/* El pie de pagina */
+.footer{
+	width: 100%;
+	height: 40px;
+	background-color: #BFC9CA;
+	margin-top: 80px;
+	border: none;
+}
+
+.footer p{
+	font-family: tahoma;
+	font-size: 10px;
+	color:#424242;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+/* El pie de pagina de la pagina de los metodos*/
+.footer3{
+	width: 100%;
+	height: 40px;
+	background-color: #BFC9CA;
+	margin-top: 20px;
+	border: none;
+}
+
+.footer3 p{
+	font-family: tahoma;
+	font-size: 10px;
+	color:#424242;
+	line-height: 40px;
+	text-align: center;
+
+}
+
